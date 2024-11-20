@@ -1,0 +1,2 @@
+Upload Image,Bounding Boxes,Labels,Annotated Image,Output Message,timestamp
+.gradio/flagged/Upload Image/fc6b6f19eb69af6e07df/61ed77bacec542a3980733d7.png,"{""headers"": [""x_min"", ""y_min"", ""width"", ""height""], ""data"": [[""1"", ""1"", ""11"", ""1""]], ""metadata"": null}",haha,,,2024-11-01 14:15:02.859633

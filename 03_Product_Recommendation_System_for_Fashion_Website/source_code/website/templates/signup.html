@@ -1,0 +1,37 @@
+{% extends 'forms.html' %}
+
+{% block title %} Đăng Kí {% endblock %}
+
+{% block body %}
+
+<!-- Sign Up section start -->
+
+<section class="base" id="base-signup">
+    <div class="base-content">
+        <div class="form">
+            <h3>
+                Tạo tài khoản để <br> vào shop
+            </h3>
+            
+            <hr class="first">
+            <form method="POST">
+                {{ form.hidden_tag() }}
+
+                <div class="email"><h4>Địa chỉ email</h4>{{ form.email }} <hr> </div>
+                <div class="name"><h4>Tên người dùng</h4>{{ form.username }} <hr></div>
+                <div class="password"><h4>Mật khẩu</h4>{{ form.password1 }} <hr></div>
+                <div class="password"><h4>Nhập lại mật khẩu</h4>{{ form.password2 }} <hr></div>
+
+                <div class="buttons">
+                    <a href="/login"> Đăng nhập</a>
+                    {{ form.submit() }}
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+</section>
+
+
+{% endblock %}

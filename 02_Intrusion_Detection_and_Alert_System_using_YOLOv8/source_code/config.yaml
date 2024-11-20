@@ -1,0 +1,8 @@
+path: /content/drive/MyDrive/SOURCE CODE/PYTHON/project-yolov8-object-detection/data
+train: train/images # train images (relative to 'path')
+val: valid/images  # val images (relative to 'path')
+test: test/images
+# Classes
+
+nc : 1
+names: ['Persona']

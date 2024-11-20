@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block title %} Add Shop Items {% endblock %}
+
+
+{% block body %}
+
+<table class="table table-dark table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Tên sản phẩm</th>
+            <th scope="col">Giá cũ</th>
+            <th scope="col">Giá hiện tại</th>
+            <th scope="col">Số lượng trong kho</th>
+            <th scope="col">Ảnh sản phẩm</th>
+            <th scope="col">Sale</th>
+            <th scope="col">Thêm</th>
+
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <form action="" method="POST", enctype="multipart/form-data">
+                {{ form.hidden_tag() }}
+
+                <td>{{ form.product_name }}</td>
+                <td>{{ form.previous_price }}</td>
+                <td>{{ form.current_price }}</td>
+                <td>{{ form.in_stock }}</td>
+                <td>{{ form.product_picture() }}</td>
+                <td>{{ form.flash_sale }}</td>
+                <td>{{ form.add_product() }}</td>
+            </form>
+        </tr>
+    </tbody>
+</table>
+
+
+{% endblock %}
