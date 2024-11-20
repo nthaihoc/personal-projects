@@ -28,6 +28,10 @@ This is a list of personal projects, focusing on Machine Learning, Deep Learning
 - Developed a basic user interface and integrated the pre-trained model using Streamlit.
 - *Tools Used: Python | scikit-learn | Tensorflow | Streamlit*
 
+#### 5. Building a Website Support Labeling for Cervical Cancer (Intership Subject)
+- Similar to Project 4, this project also builds a deep learning model for classifying cervical cancer cells. However, in this project, a new tool called Gradio is used to deploy the user interface.
+- *Tools Used: Python | scikit-learn | Tensorflow | Gradio*
+
 
 ## Contributing
 These are just projects suitable for beginners, as they cover simple concepts. Since these are personal projects, mistakes are inevitable. I warmly welcome your friendly contributions to help improve them. Thanks you everyone! 
